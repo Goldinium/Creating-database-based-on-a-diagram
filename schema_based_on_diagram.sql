@@ -1,7 +1,3 @@
-
-
-
-
 CREATE TABLE patients
 (
   id SERIAL PRIMARY KEY,
