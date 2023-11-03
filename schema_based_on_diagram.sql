@@ -24,7 +24,7 @@ CREATE TABLE treatments
   name VARCHAR(255)
 );
 
-CREATE TABLE medical_histories_treatments
+CREATEg TABLE medical_histories_treatments
 (
   id SERIAL PRIMARY KEY,
   medical_history_id INTEGER,
