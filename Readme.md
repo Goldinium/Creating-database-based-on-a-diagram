@@ -1,4 +1,4 @@
-# Pet Clinic
+# Diagram picture sql interpretation
 
 
 # 📗 Table of Contents
@@ -19,15 +19,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Pet Clinic] <a name="about-project"></a>
+# 📖 [Diagram picture sql interpretation] <a name="about-project"></a>
 
-> A relational (SQL) database based on a real-life example
+> A relational (SQL) database based on a schema
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> For this project we used SQL, specifically POstgres.
+> For this project we used SQL, specifically Postgres.
 
 <details>
 <summary>Database</summary>
@@ -40,7 +40,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> A database storing all information about different things of the pets on the clinic
+> A database storing all information about different things on the clinic
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +65,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need to:
 
 ```sh
- git clone https://github.com/Goldinium/Pet_clinic.git
+ git clone https://github.com/Goldinium/Creating-database-based-on-a-diagram.git
 ```
 
 ### Install & Usage
