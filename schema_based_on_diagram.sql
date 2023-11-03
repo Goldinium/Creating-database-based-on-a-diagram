@@ -5,7 +5,6 @@ CREATE TABLE patients
   date_of_birth DATE
 );
 
-
 CREATE TABLE medical_histories
 (
   id SERIAL PRIMARY KEY,
