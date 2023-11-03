@@ -5,14 +5,14 @@ CREATE TABLE patients
   date_of_birth DATE
 );
 
--- CREATE TABLE medical_histories
--- (
---   id SERIAL PRIMARY KEY,
---   admitted_at TIMESTAMP,
---   patient_id INTEGER,
---   status VARCHAR(255),
---   FOREIGN KEY (patient_id) REFERENCES patients (id)
--- );
+CREATE TABLE medical_histories
+(
+  id SERIAL PRIMARY KEY,
+  admitted_at TIMESTAMP,
+  patient_id INTEGER,
+  status VARCHAR(255),
+  FOREIGN KEY (patient_id) REFERENCES patients (id)
+);
 
 CREATE INDEX ON medical_histories
 (patient_id);
